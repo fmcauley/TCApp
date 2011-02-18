@@ -27,6 +27,17 @@
 		F07405CD130E886D0071B201 /* TCAppTests.h in Resources */ = {isa = PBXBuildFile; fileRef = F07405CC130E886D0071B201 /* TCAppTests.h */; };
 		F07405CF130E886D0071B201 /* TCAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F07405CE130E886D0071B201 /* TCAppTests.m */; };
 		F07405E1130E89430071B201 /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F07405E0130E89430071B201 /* libxml2.2.dylib */; };
+		F07405EF130E89E10071B201 /* InformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F07405E3130E89E10071B201 /* InformationViewController.m */; };
+		F07405F0130E89E10071B201 /* TCConnectionToNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = F07405E5130E89E10071B201 /* TCConnectionToNetwork.m */; };
+		F07405F1130E89E10071B201 /* InformationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F07405E7130E89E10071B201 /* InformationViewController.xib */; };
+		F07405F2130E89E10071B201 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F07405E8130E89E10071B201 /* icon@2x.png */; };
+		F07405F3130E89E10071B201 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F07405E9130E89E10071B201 /* icon.png */; };
+		F07405F4130E89E10071B201 /* icon-small.png in Resources */ = {isa = PBXBuildFile; fileRef = F07405EA130E89E10071B201 /* icon-small.png */; };
+		F07405F5130E89E10071B201 /* icon-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = F07405EB130E89E10071B201 /* icon-ipad.png */; };
+		F07405F6130E89E10071B201 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = F07405EC130E89E10071B201 /* Icon-72.png */; };
+		F07405F7130E89E10071B201 /* icon-small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = F07405ED130E89E10071B201 /* icon-small-50.png */; };
+		F07405FA130E8A530071B201 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F07405F9130E8A530071B201 /* SystemConfiguration.framework */; };
+		F07405FC130E8ABE0071B201 /* TCDownLoadXML.m in Sources */ = {isa = PBXBuildFile; fileRef = F07405FB130E8ABE0071B201 /* TCDownLoadXML.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +76,20 @@
 		F07405CC130E886D0071B201 /* TCAppTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCAppTests.h; sourceTree = "<group>"; };
 		F07405CE130E886D0071B201 /* TCAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCAppTests.m; sourceTree = "<group>"; };
 		F07405E0130E89430071B201 /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = ../../../Desktop/NextXMLTEst/libxml2.2.dylib; sourceTree = "<group>"; };
+		F07405E2130E89E10071B201 /* TCDownLoadXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCDownLoadXML.h; sourceTree = "<group>"; };
+		F07405E3130E89E10071B201 /* InformationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InformationViewController.m; sourceTree = "<group>"; };
+		F07405E4130E89E10071B201 /* TCConnectionToNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCConnectionToNetwork.h; sourceTree = "<group>"; };
+		F07405E5130E89E10071B201 /* TCConnectionToNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCConnectionToNetwork.m; sourceTree = "<group>"; };
+		F07405E6130E89E10071B201 /* InformationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InformationViewController.h; sourceTree = "<group>"; };
+		F07405E7130E89E10071B201 /* InformationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InformationViewController.xib; sourceTree = "<group>"; };
+		F07405E8130E89E10071B201 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		F07405E9130E89E10071B201 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		F07405EA130E89E10071B201 /* icon-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-small.png"; sourceTree = "<group>"; };
+		F07405EB130E89E10071B201 /* icon-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-ipad.png"; sourceTree = "<group>"; };
+		F07405EC130E89E10071B201 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		F07405ED130E89E10071B201 /* icon-small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-small-50.png"; sourceTree = "<group>"; };
+		F07405F9130E8A530071B201 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F07405FB130E8ABE0071B201 /* TCDownLoadXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TCDownLoadXML.m; path = ../../TattooConventionsApp/TattooConventionsApp/TCDownLoadXML.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F07405FA130E8A530071B201 /* SystemConfiguration.framework in Frameworks */,
 				F0740595130E886D0071B201 /* UIKit.framework in Frameworks */,
 				F0740597130E886D0071B201 /* Foundation.framework in Frameworks */,
 				F0740599130E886D0071B201 /* CoreGraphics.framework in Frameworks */,
@@ -97,6 +123,20 @@
 		F0740585130E886C0071B201 = {
 			isa = PBXGroup;
 			children = (
+				F07405FB130E8ABE0071B201 /* TCDownLoadXML.m */,
+				F07405F9130E8A530071B201 /* SystemConfiguration.framework */,
+				F07405E2130E89E10071B201 /* TCDownLoadXML.h */,
+				F07405E3130E89E10071B201 /* InformationViewController.m */,
+				F07405E4130E89E10071B201 /* TCConnectionToNetwork.h */,
+				F07405E5130E89E10071B201 /* TCConnectionToNetwork.m */,
+				F07405E6130E89E10071B201 /* InformationViewController.h */,
+				F07405E7130E89E10071B201 /* InformationViewController.xib */,
+				F07405E8130E89E10071B201 /* icon@2x.png */,
+				F07405E9130E89E10071B201 /* icon.png */,
+				F07405EA130E89E10071B201 /* icon-small.png */,
+				F07405EB130E89E10071B201 /* icon-ipad.png */,
+				F07405EC130E89E10071B201 /* Icon-72.png */,
+				F07405ED130E89E10071B201 /* icon-small-50.png */,
 				F07405E0130E89430071B201 /* libxml2.2.dylib */,
 				F074059C130E886D0071B201 /* TCApp */,
 				F07405C5130E886D0071B201 /* TCAppTests */,
@@ -262,6 +302,13 @@
 				F07405A1130E886D0071B201 /* InfoPlist.strings in Resources */,
 				F07405B1130E886D0071B201 /* MainWindow_iPhone.xib in Resources */,
 				F07405B8130E886D0071B201 /* MainWindow_iPad.xib in Resources */,
+				F07405F1130E89E10071B201 /* InformationViewController.xib in Resources */,
+				F07405F2130E89E10071B201 /* icon@2x.png in Resources */,
+				F07405F3130E89E10071B201 /* icon.png in Resources */,
+				F07405F4130E89E10071B201 /* icon-small.png in Resources */,
+				F07405F5130E89E10071B201 /* icon-ipad.png in Resources */,
+				F07405F6130E89E10071B201 /* Icon-72.png in Resources */,
+				F07405F7130E89E10071B201 /* icon-small-50.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +349,9 @@
 				F07405AA130E886D0071B201 /* TCApp.xcdatamodeld in Sources */,
 				F07405AE130E886D0071B201 /* TCAppAppDelegate_iPhone.m in Sources */,
 				F07405B5130E886D0071B201 /* TCAppAppDelegate_iPad.m in Sources */,
+				F07405EF130E89E10071B201 /* InformationViewController.m in Sources */,
+				F07405F0130E89E10071B201 /* TCConnectionToNetwork.m in Sources */,
+				F07405FC130E8ABE0071B201 /* TCDownLoadXML.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,7 +417,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = /usr/include/libxml2;
@@ -383,7 +433,7 @@
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = /usr/include/libxml2;
