@@ -26,6 +26,7 @@
 		F07405CA130E886D0071B201 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F07405C8130E886D0071B201 /* InfoPlist.strings */; };
 		F07405CD130E886D0071B201 /* TCAppTests.h in Resources */ = {isa = PBXBuildFile; fileRef = F07405CC130E886D0071B201 /* TCAppTests.h */; };
 		F07405CF130E886D0071B201 /* TCAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F07405CE130E886D0071B201 /* TCAppTests.m */; };
+		F07405E1130E89430071B201 /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F07405E0130E89430071B201 /* libxml2.2.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,25 +45,26 @@
 		F0740596130E886D0071B201 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F0740598130E886D0071B201 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		F074059A130E886D0071B201 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		F074059E130E886D0071B201 /* TCApp-Info.plist */ = {isa = PBXFileReference; path = "TCApp-Info.plist"; sourceTree = "<group>"; };
+		F074059E130E886D0071B201 /* TCApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TCApp-Info.plist"; sourceTree = "<group>"; };
 		F07405A0130E886D0071B201 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		F07405A2130E886D0071B201 /* TCApp-Prefix.pch */ = {isa = PBXFileReference; path = "TCApp-Prefix.pch"; sourceTree = "<group>"; };
+		F07405A2130E886D0071B201 /* TCApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TCApp-Prefix.pch"; sourceTree = "<group>"; };
 		F07405A3130E886D0071B201 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F07405A5130E886D0071B201 /* TCAppAppDelegate.h */ = {isa = PBXFileReference; path = TCAppAppDelegate.h; sourceTree = "<group>"; };
+		F07405A5130E886D0071B201 /* TCAppAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCAppAppDelegate.h; sourceTree = "<group>"; };
 		F07405A6130E886D0071B201 /* TCAppAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCAppAppDelegate.m; sourceTree = "<group>"; };
 		F07405A9130E886D0071B201 /* TCApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TCApp.xcdatamodel; sourceTree = "<group>"; };
-		F07405AC130E886D0071B201 /* TCAppAppDelegate_iPhone.h */ = {isa = PBXFileReference; name = TCAppAppDelegate_iPhone.h; path = iPhone/TCAppAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		F07405AC130E886D0071B201 /* TCAppAppDelegate_iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TCAppAppDelegate_iPhone.h; path = iPhone/TCAppAppDelegate_iPhone.h; sourceTree = "<group>"; };
 		F07405AD130E886D0071B201 /* TCAppAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TCAppAppDelegate_iPhone.m; path = iPhone/TCAppAppDelegate_iPhone.m; sourceTree = "<group>"; };
 		F07405B0130E886D0071B201 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
-		F07405B3130E886D0071B201 /* TCAppAppDelegate_iPad.h */ = {isa = PBXFileReference; name = TCAppAppDelegate_iPad.h; path = iPad/TCAppAppDelegate_iPad.h; sourceTree = "<group>"; };
+		F07405B3130E886D0071B201 /* TCAppAppDelegate_iPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TCAppAppDelegate_iPad.h; path = iPad/TCAppAppDelegate_iPad.h; sourceTree = "<group>"; };
 		F07405B4130E886D0071B201 /* TCAppAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TCAppAppDelegate_iPad.m; path = iPad/TCAppAppDelegate_iPad.m; sourceTree = "<group>"; };
 		F07405B7130E886D0071B201 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
 		F07405BE130E886D0071B201 /* TCAppTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TCAppTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F07405C7130E886D0071B201 /* TCAppTests-Info.plist */ = {isa = PBXFileReference; path = "TCAppTests-Info.plist"; sourceTree = "<group>"; };
+		F07405C7130E886D0071B201 /* TCAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TCAppTests-Info.plist"; sourceTree = "<group>"; };
 		F07405C9130E886D0071B201 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		F07405CB130E886D0071B201 /* TCAppTests-Prefix.pch */ = {isa = PBXFileReference; path = "TCAppTests-Prefix.pch"; sourceTree = "<group>"; };
+		F07405CB130E886D0071B201 /* TCAppTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TCAppTests-Prefix.pch"; sourceTree = "<group>"; };
 		F07405CC130E886D0071B201 /* TCAppTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCAppTests.h; sourceTree = "<group>"; };
 		F07405CE130E886D0071B201 /* TCAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCAppTests.m; sourceTree = "<group>"; };
+		F07405E0130E89430071B201 /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = ../../../Desktop/NextXMLTEst/libxml2.2.dylib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 				F0740597130E886D0071B201 /* Foundation.framework in Frameworks */,
 				F0740599130E886D0071B201 /* CoreGraphics.framework in Frameworks */,
 				F074059B130E886D0071B201 /* CoreData.framework in Frameworks */,
+				F07405E1130E89430071B201 /* libxml2.2.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +97,7 @@
 		F0740585130E886C0071B201 = {
 			isa = PBXGroup;
 			children = (
+				F07405E0130E89430071B201 /* libxml2.2.dylib */,
 				F074059C130E886D0071B201 /* TCApp */,
 				F07405C5130E886D0071B201 /* TCAppTests */,
 				F0740593130E886D0071B201 /* Frameworks */,
@@ -366,6 +370,7 @@
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -381,6 +386,7 @@
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
@@ -398,6 +404,10 @@
 				GCC_PREFIX_HEADER = "TCApp/TCApp-Prefix.pch";
 				INFOPLIST_FILE = "TCApp/TCApp-Info.plist";
 				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Desktop/NextXMLTEst\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -412,6 +422,10 @@
 				GCC_PREFIX_HEADER = "TCApp/TCApp-Prefix.pch";
 				INFOPLIST_FILE = "TCApp/TCApp-Info.plist";
 				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Desktop/NextXMLTEst\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;

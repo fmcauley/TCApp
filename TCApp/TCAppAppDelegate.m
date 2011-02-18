@@ -8,8 +8,8 @@
 
 #import "TCAppAppDelegate.h"
 
-@implementation TCAppAppDelegate
 
+@implementation TCAppAppDelegate
 
 @synthesize window=_window;
 
