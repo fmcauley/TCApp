@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F01FFC97130E90050024AD14 /* icon-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = F01FFC90130E90050024AD14 /* icon-ipad.png */; };
+		F01FFC98130E90050024AD14 /* icon-small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = F01FFC91130E90050024AD14 /* icon-small-50.png */; };
+		F01FFC99130E90050024AD14 /* icon-small.png in Resources */ = {isa = PBXBuildFile; fileRef = F01FFC92130E90050024AD14 /* icon-small.png */; };
+		F01FFC9A130E90050024AD14 /* icon-small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F01FFC93130E90050024AD14 /* icon-small@2x.png */; };
+		F01FFC9B130E90050024AD14 /* icon57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = F01FFC94130E90050024AD14 /* icon57x57.png */; };
+		F01FFC9C130E90050024AD14 /* icon114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = F01FFC95130E90050024AD14 /* icon114x114.png */; };
+		F01FFC9D130E90050024AD14 /* iTunesArtWork.png in Resources */ = {isa = PBXBuildFile; fileRef = F01FFC96130E90050024AD14 /* iTunesArtWork.png */; };
+		F01FFCA3130E90170024AD14 /* TattooConventions_Background_IPHONE_LOAD_480x320.png in Resources */ = {isa = PBXBuildFile; fileRef = F01FFC9F130E90170024AD14 /* TattooConventions_Background_IPHONE_LOAD_480x320.png */; };
+		F01FFCA4130E90170024AD14 /* TattooConventions_Background_IPHONE_LOAD_960x640.png in Resources */ = {isa = PBXBuildFile; fileRef = F01FFCA0130E90170024AD14 /* TattooConventions_Background_IPHONE_LOAD_960x640.png */; };
+		F01FFCA5130E90170024AD14 /* TattooConventions_IPHONE_LOAD_960x640.png in Resources */ = {isa = PBXBuildFile; fileRef = F01FFCA1130E90170024AD14 /* TattooConventions_IPHONE_LOAD_960x640.png */; };
+		F01FFCA6130E90170024AD14 /* TattooConventions_IPHONE_LOAD480x320.png in Resources */ = {isa = PBXBuildFile; fileRef = F01FFCA2130E90170024AD14 /* TattooConventions_IPHONE_LOAD480x320.png */; };
 		F0740595130E886D0071B201 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0740594130E886D0071B201 /* UIKit.framework */; };
 		F0740597130E886D0071B201 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0740596130E886D0071B201 /* Foundation.framework */; };
 		F0740599130E886D0071B201 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0740598130E886D0071B201 /* CoreGraphics.framework */; };
@@ -45,6 +56,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F01FFC90130E90050024AD14 /* icon-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-ipad.png"; sourceTree = "<group>"; };
+		F01FFC91130E90050024AD14 /* icon-small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-small-50.png"; sourceTree = "<group>"; };
+		F01FFC92130E90050024AD14 /* icon-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-small.png"; sourceTree = "<group>"; };
+		F01FFC93130E90050024AD14 /* icon-small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-small@2x.png"; sourceTree = "<group>"; };
+		F01FFC94130E90050024AD14 /* icon57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon57x57.png; sourceTree = "<group>"; };
+		F01FFC95130E90050024AD14 /* icon114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon114x114.png; sourceTree = "<group>"; };
+		F01FFC96130E90050024AD14 /* iTunesArtWork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesArtWork.png; sourceTree = "<group>"; };
+		F01FFC9F130E90170024AD14 /* TattooConventions_Background_IPHONE_LOAD_480x320.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TattooConventions_Background_IPHONE_LOAD_480x320.png; sourceTree = "<group>"; };
+		F01FFCA0130E90170024AD14 /* TattooConventions_Background_IPHONE_LOAD_960x640.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TattooConventions_Background_IPHONE_LOAD_960x640.png; sourceTree = "<group>"; };
+		F01FFCA1130E90170024AD14 /* TattooConventions_IPHONE_LOAD_960x640.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TattooConventions_IPHONE_LOAD_960x640.png; sourceTree = "<group>"; };
+		F01FFCA2130E90170024AD14 /* TattooConventions_IPHONE_LOAD480x320.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TattooConventions_IPHONE_LOAD480x320.png; sourceTree = "<group>"; };
 		F0740590130E886D0071B201 /* TCApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TCApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0740594130E886D0071B201 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F0740596130E886D0071B201 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -221,6 +243,17 @@
 		F07405FE130E8B6E0071B201 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				F01FFC9F130E90170024AD14 /* TattooConventions_Background_IPHONE_LOAD_480x320.png */,
+				F01FFCA0130E90170024AD14 /* TattooConventions_Background_IPHONE_LOAD_960x640.png */,
+				F01FFCA1130E90170024AD14 /* TattooConventions_IPHONE_LOAD_960x640.png */,
+				F01FFCA2130E90170024AD14 /* TattooConventions_IPHONE_LOAD480x320.png */,
+				F01FFC90130E90050024AD14 /* icon-ipad.png */,
+				F01FFC91130E90050024AD14 /* icon-small-50.png */,
+				F01FFC92130E90050024AD14 /* icon-small.png */,
+				F01FFC93130E90050024AD14 /* icon-small@2x.png */,
+				F01FFC94130E90050024AD14 /* icon57x57.png */,
+				F01FFC95130E90050024AD14 /* icon114x114.png */,
+				F01FFC96130E90050024AD14 /* iTunesArtWork.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -317,6 +350,17 @@
 				F07405B1130E886D0071B201 /* MainWindow_iPhone.xib in Resources */,
 				F07405B8130E886D0071B201 /* MainWindow_iPad.xib in Resources */,
 				F07405F1130E89E10071B201 /* InformationViewController.xib in Resources */,
+				F01FFC97130E90050024AD14 /* icon-ipad.png in Resources */,
+				F01FFC98130E90050024AD14 /* icon-small-50.png in Resources */,
+				F01FFC99130E90050024AD14 /* icon-small.png in Resources */,
+				F01FFC9A130E90050024AD14 /* icon-small@2x.png in Resources */,
+				F01FFC9B130E90050024AD14 /* icon57x57.png in Resources */,
+				F01FFC9C130E90050024AD14 /* icon114x114.png in Resources */,
+				F01FFC9D130E90050024AD14 /* iTunesArtWork.png in Resources */,
+				F01FFCA3130E90170024AD14 /* TattooConventions_Background_IPHONE_LOAD_480x320.png in Resources */,
+				F01FFCA4130E90170024AD14 /* TattooConventions_Background_IPHONE_LOAD_960x640.png in Resources */,
+				F01FFCA5130E90170024AD14 /* TattooConventions_IPHONE_LOAD_960x640.png in Resources */,
+				F01FFCA6130E90170024AD14 /* TattooConventions_IPHONE_LOAD480x320.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -553,6 +597,7 @@
 				F07405D4130E886D0071B201 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F07405D5130E886D0071B201 /* Build configuration list for PBXNativeTarget "TCAppTests" */ = {
 			isa = XCConfigurationList;
@@ -561,6 +606,7 @@
 				F07405D7130E886D0071B201 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
