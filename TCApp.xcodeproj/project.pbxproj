@@ -18,6 +18,7 @@
 		F01FFCA4130E90170024AD14 /* TattooConventions_Background_IPHONE_LOAD_960x640.png in Resources */ = {isa = PBXBuildFile; fileRef = F01FFCA0130E90170024AD14 /* TattooConventions_Background_IPHONE_LOAD_960x640.png */; };
 		F01FFCA5130E90170024AD14 /* TattooConventions_IPHONE_LOAD_960x640.png in Resources */ = {isa = PBXBuildFile; fileRef = F01FFCA1130E90170024AD14 /* TattooConventions_IPHONE_LOAD_960x640.png */; };
 		F01FFCA6130E90170024AD14 /* TattooConventions_IPHONE_LOAD480x320.png in Resources */ = {isa = PBXBuildFile; fileRef = F01FFCA2130E90170024AD14 /* TattooConventions_IPHONE_LOAD480x320.png */; };
+		F01FFCA8130E91280024AD14 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F01FFCA7130E91280024AD14 /* Default.png */; };
 		F0740595130E886D0071B201 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0740594130E886D0071B201 /* UIKit.framework */; };
 		F0740597130E886D0071B201 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0740596130E886D0071B201 /* Foundation.framework */; };
 		F0740599130E886D0071B201 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0740598130E886D0071B201 /* CoreGraphics.framework */; };
@@ -67,6 +68,7 @@
 		F01FFCA0130E90170024AD14 /* TattooConventions_Background_IPHONE_LOAD_960x640.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TattooConventions_Background_IPHONE_LOAD_960x640.png; sourceTree = "<group>"; };
 		F01FFCA1130E90170024AD14 /* TattooConventions_IPHONE_LOAD_960x640.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TattooConventions_IPHONE_LOAD_960x640.png; sourceTree = "<group>"; };
 		F01FFCA2130E90170024AD14 /* TattooConventions_IPHONE_LOAD480x320.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TattooConventions_IPHONE_LOAD480x320.png; sourceTree = "<group>"; };
+		F01FFCA7130E91280024AD14 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		F0740590130E886D0071B201 /* TCApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TCApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0740594130E886D0071B201 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F0740596130E886D0071B201 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -243,6 +245,7 @@
 		F07405FE130E8B6E0071B201 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				F01FFCA7130E91280024AD14 /* Default.png */,
 				F01FFC9F130E90170024AD14 /* TattooConventions_Background_IPHONE_LOAD_480x320.png */,
 				F01FFCA0130E90170024AD14 /* TattooConventions_Background_IPHONE_LOAD_960x640.png */,
 				F01FFCA1130E90170024AD14 /* TattooConventions_IPHONE_LOAD_960x640.png */,
@@ -361,6 +364,7 @@
 				F01FFCA4130E90170024AD14 /* TattooConventions_Background_IPHONE_LOAD_960x640.png in Resources */,
 				F01FFCA5130E90170024AD14 /* TattooConventions_IPHONE_LOAD_960x640.png in Resources */,
 				F01FFCA6130E90170024AD14 /* TattooConventions_IPHONE_LOAD480x320.png in Resources */,
+				F01FFCA8130E91280024AD14 /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
