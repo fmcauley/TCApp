@@ -7,6 +7,7 @@
 //
 
 #import "TCAppAppDelegate_iPhone.h"
+#import "InformationViewController.h"
 
 @implementation TCAppAppDelegate_iPhone
 

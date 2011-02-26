@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "TCAppAppDelegate.h"
-@class TCSplashScreenViewController;
+#import "InformationViewController.h"
 
 @interface TCAppAppDelegate_iPhone : TCAppAppDelegate {
 @private
