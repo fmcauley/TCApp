@@ -5,6 +5,7 @@
 //  Created by Frank McAuley on 2/18/11.
 //  Copyright 2011 Frank McAuley LLC. All rights reserved.
 //
+#define DEBUG_TC
 
 #import "TCAppAppDelegate_iPhone.h"
 #import "InformationViewController.h"
@@ -24,7 +25,13 @@
 #pragma mark - Application lifecycle
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-{    
+{  
+    /**
+     Need to present the splash modal and then add the UITabBarController for the guts of the app
+     Also need to setup the git repo
+     */
+
+    
     [[UIApplication sharedApplication] setStatusBarStyle: UIStatusBarStyleBlackOpaque];
     self.window.rootViewController = self.info;
     [self.window makeKeyAndVisible];
