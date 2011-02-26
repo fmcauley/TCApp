@@ -26,11 +26,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {  
-    /**
-     Need to present the splash modal and then add the UITabBarController for the guts of the app
-     Also need to setup the git repo
-     */
-
+  
     
     [[UIApplication sharedApplication] setStatusBarStyle: UIStatusBarStyleBlackOpaque];
     self.window.rootViewController = self.info;

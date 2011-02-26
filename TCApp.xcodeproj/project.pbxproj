@@ -11,7 +11,7 @@
 		F01FFC98130E90050024AD14 /* icon-small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = F01FFC91130E90050024AD14 /* icon-small-50.png */; };
 		F01FFC99130E90050024AD14 /* icon-small.png in Resources */ = {isa = PBXBuildFile; fileRef = F01FFC92130E90050024AD14 /* icon-small.png */; };
 		F01FFC9A130E90050024AD14 /* icon-small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F01FFC93130E90050024AD14 /* icon-small@2x.png */; };
-		F01FFC9B130E90050024AD14 /* icon57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = F01FFC94130E90050024AD14 /* icon57x57.png */; };
+		F01FFC9B130E90050024AD14 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F01FFC94130E90050024AD14 /* icon.png */; };
 		F01FFC9C130E90050024AD14 /* icon114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = F01FFC95130E90050024AD14 /* icon114x114.png */; };
 		F01FFC9D130E90050024AD14 /* iTunesArtWork.png in Resources */ = {isa = PBXBuildFile; fileRef = F01FFC96130E90050024AD14 /* iTunesArtWork.png */; };
 		F01FFCA3130E90170024AD14 /* TattooConventions_Background_IPHONE_LOAD_480x320.png in Resources */ = {isa = PBXBuildFile; fileRef = F01FFC9F130E90170024AD14 /* TattooConventions_Background_IPHONE_LOAD_480x320.png */; };
@@ -61,7 +61,7 @@
 		F01FFC91130E90050024AD14 /* icon-small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-small-50.png"; sourceTree = "<group>"; };
 		F01FFC92130E90050024AD14 /* icon-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-small.png"; sourceTree = "<group>"; };
 		F01FFC93130E90050024AD14 /* icon-small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-small@2x.png"; sourceTree = "<group>"; };
-		F01FFC94130E90050024AD14 /* icon57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon57x57.png; sourceTree = "<group>"; };
+		F01FFC94130E90050024AD14 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		F01FFC95130E90050024AD14 /* icon114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon114x114.png; sourceTree = "<group>"; };
 		F01FFC96130E90050024AD14 /* iTunesArtWork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesArtWork.png; sourceTree = "<group>"; };
 		F01FFC9F130E90170024AD14 /* TattooConventions_Background_IPHONE_LOAD_480x320.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TattooConventions_Background_IPHONE_LOAD_480x320.png; sourceTree = "<group>"; };
@@ -254,7 +254,7 @@
 				F01FFC91130E90050024AD14 /* icon-small-50.png */,
 				F01FFC92130E90050024AD14 /* icon-small.png */,
 				F01FFC93130E90050024AD14 /* icon-small@2x.png */,
-				F01FFC94130E90050024AD14 /* icon57x57.png */,
+				F01FFC94130E90050024AD14 /* icon.png */,
 				F01FFC95130E90050024AD14 /* icon114x114.png */,
 				F01FFC96130E90050024AD14 /* iTunesArtWork.png */,
 			);
@@ -357,7 +357,7 @@
 				F01FFC98130E90050024AD14 /* icon-small-50.png in Resources */,
 				F01FFC99130E90050024AD14 /* icon-small.png in Resources */,
 				F01FFC9A130E90050024AD14 /* icon-small@2x.png in Resources */,
-				F01FFC9B130E90050024AD14 /* icon57x57.png in Resources */,
+				F01FFC9B130E90050024AD14 /* icon.png in Resources */,
 				F01FFC9C130E90050024AD14 /* icon114x114.png in Resources */,
 				F01FFC9D130E90050024AD14 /* iTunesArtWork.png in Resources */,
 				F01FFCA3130E90170024AD14 /* TattooConventions_Background_IPHONE_LOAD_480x320.png in Resources */,
