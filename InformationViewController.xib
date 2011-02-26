@@ -53,7 +53,7 @@
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<object class="NSCustomResource" key="IBUIImage">
 							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">TattooConventions_IPHONE_LOAD_960x640.png</string>
+							<string key="NSResourceName">TattooConventions_Background_IPHONE_LOAD_960x640.png</string>
 						</object>
 					</object>
 				</object>
@@ -172,7 +172,7 @@
 		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>
 		<int key="IBDocument.defaultPropertyAccessControl">3</int>
 		<object class="NSMutableDictionary" key="IBDocument.LastKnownImageSizes">
-			<string key="NS.key.0">TattooConventions_IPHONE_LOAD_960x640.png</string>
+			<string key="NS.key.0">TattooConventions_Background_IPHONE_LOAD_960x640.png</string>
 			<string key="NS.object.0">{640, 960}</string>
 		</object>
 		<string key="IBCocoaTouchPluginVersion">294</string>

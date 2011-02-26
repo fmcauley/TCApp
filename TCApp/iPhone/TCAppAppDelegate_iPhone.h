@@ -8,9 +8,14 @@
 
 #import <UIKit/UIKit.h>
 #import "TCAppAppDelegate.h"
+@class TCSplashScreenViewController;
 
 @interface TCAppAppDelegate_iPhone : TCAppAppDelegate {
+@private
     
 }
+
+@property (nonatomic, retain) IBOutlet UIWindow *window;
+@property (nonatomic, retain) IBOutlet TCSplashScreenViewController *info;
 
 @end
