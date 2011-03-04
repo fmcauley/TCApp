@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-@class  TCXmlProcess;
+
 
 @interface TCDownLoadXML : NSObject  {
     
