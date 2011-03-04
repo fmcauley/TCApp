@@ -44,6 +44,7 @@
 		F07405F1130E89E10071B201 /* InformationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F07405E7130E89E10071B201 /* InformationViewController.xib */; };
 		F07405FA130E8A530071B201 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F07405F9130E8A530071B201 /* SystemConfiguration.framework */; };
 		F07405FC130E8ABE0071B201 /* TCDownLoadXML.m in Sources */ = {isa = PBXBuildFile; fileRef = F07405FB130E8ABE0071B201 /* TCDownLoadXML.m */; };
+		F09DD704132087C000965B1D /* TCXmlProcess.m in Sources */ = {isa = PBXBuildFile; fileRef = F09DD703132087C000965B1D /* TCXmlProcess.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,6 +103,8 @@
 		F07405E7130E89E10071B201 /* InformationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InformationViewController.xib; sourceTree = "<group>"; };
 		F07405F9130E8A530071B201 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		F07405FB130E8ABE0071B201 /* TCDownLoadXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TCDownLoadXML.m; path = ../../TattooConventionsApp/TattooConventionsApp/TCDownLoadXML.m; sourceTree = "<group>"; };
+		F09DD702132087C000965B1D /* TCXmlProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCXmlProcess.h; sourceTree = "<group>"; };
+		F09DD703132087C000965B1D /* TCXmlProcess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCXmlProcess.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +138,7 @@
 		F0740585130E886C0071B201 = {
 			isa = PBXGroup;
 			children = (
+				F09DD7001320875200965B1D /* TCXmlProcess */,
 				F0740600130E8BCF0071B201 /* TCDownLoadXML */,
 				F07405FF130E8BA00071B201 /* TCConnectionToNetwork */,
 				F07405FE130E8B6E0071B201 /* Images */,
@@ -279,6 +283,15 @@
 			name = TCDownLoadXML;
 			sourceTree = "<group>";
 		};
+		F09DD7001320875200965B1D /* TCXmlProcess */ = {
+			isa = PBXGroup;
+			children = (
+				F09DD702132087C000965B1D /* TCXmlProcess.h */,
+				F09DD703132087C000965B1D /* TCXmlProcess.m */,
+			);
+			name = TCXmlProcess;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -408,6 +421,7 @@
 				F07405EF130E89E10071B201 /* InformationViewController.m in Sources */,
 				F07405F0130E89E10071B201 /* TCConnectionToNetwork.m in Sources */,
 				F07405FC130E8ABE0071B201 /* TCDownLoadXML.m in Sources */,
+				F09DD704132087C000965B1D /* TCXmlProcess.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

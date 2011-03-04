@@ -11,6 +11,5 @@
     
 }
 
--(void)downloadFile;
 -(void)downloadAndProcess;
 @end
