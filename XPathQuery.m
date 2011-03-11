@@ -26,6 +26,8 @@
 #import <libxml/xpath.h>
 #import <libxml/xpathInternals.h>
 
+#define DEBUG_TC
+
 @implementation XPathQuery
 
 NSDictionary *DictionaryForNode(xmlNodePtr currentNode, NSMutableDictionary *parentResult)
@@ -37,6 +39,10 @@ NSDictionary *DictionaryForNode(xmlNodePtr currentNode, NSMutableDictionary *par
 		NSString *currentNodeContent =
         [NSString stringWithCString:(const char *)currentNode->name encoding:NSUTF8StringEncoding];
 		[resultForNode setObject:currentNodeContent forKey:@"nodeName"];
+        
+#ifdef DEBUG_TC
+        NSLog(@"THE CURRENT NODE: %@",currentNodeContent);
+#endif
 	}
 	
 	if (currentNode->content && currentNode->type != XML_DOCUMENT_TYPE_NODE)
