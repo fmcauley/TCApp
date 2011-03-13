@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "TCAppAppDelegate.h"
-#import "InformationViewController.h"
+
 
 @interface TCAppAppDelegate_iPhone : TCAppAppDelegate {
 @private
@@ -16,6 +16,6 @@
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
-@property (nonatomic, retain) IBOutlet TCSplashScreenViewController *info;
+@property (nonatomic, retain) IBOutlet UITabBarController *tabBarController;
 
 @end

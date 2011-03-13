@@ -44,6 +44,8 @@
 		F07405FA130E8A530071B201 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F07405F9130E8A530071B201 /* SystemConfiguration.framework */; };
 		F07405FC130E8ABE0071B201 /* TCDownLoadXML.m in Sources */ = {isa = PBXBuildFile; fileRef = F07405FB130E8ABE0071B201 /* TCDownLoadXML.m */; };
 		F086FF74132108260040D3D1 /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = F086FF73132108250040D3D1 /* XPathQuery.m */; };
+		F0C04813132C74A8001B2821 /* TCConventionSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C04811132C74A8001B2821 /* TCConventionSearch.m */; };
+		F0C04814132C74A8001B2821 /* TCConventionSearch.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0C04812132C74A8001B2821 /* TCConventionSearch.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,6 +105,9 @@
 		F07405FB130E8ABE0071B201 /* TCDownLoadXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TCDownLoadXML.m; path = ../../TattooConventionsApp/TattooConventionsApp/TCDownLoadXML.m; sourceTree = "<group>"; };
 		F086FF72132108250040D3D1 /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPathQuery.h; sourceTree = "<group>"; };
 		F086FF73132108250040D3D1 /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPathQuery.m; sourceTree = "<group>"; };
+		F0C04810132C74A8001B2821 /* TCConventionSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCConventionSearch.h; sourceTree = "<group>"; };
+		F0C04811132C74A8001B2821 /* TCConventionSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCConventionSearch.m; sourceTree = "<group>"; };
+		F0C04812132C74A8001B2821 /* TCConventionSearch.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TCConventionSearch.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +141,7 @@
 		F0740585130E886C0071B201 = {
 			isa = PBXGroup;
 			children = (
+				F0C0480E132C745D001B2821 /* TCConventionSearch */,
 				F086FF6E1321073B0040D3D1 /* TCXml */,
 				F0740600130E8BCF0071B201 /* TCDownLoadXML */,
 				F07405FF130E8BA00071B201 /* TCConnectionToNetwork */,
@@ -289,6 +295,16 @@
 			name = TCXml;
 			sourceTree = "<group>";
 		};
+		F0C0480E132C745D001B2821 /* TCConventionSearch */ = {
+			isa = PBXGroup;
+			children = (
+				F0C04810132C74A8001B2821 /* TCConventionSearch.h */,
+				F0C04811132C74A8001B2821 /* TCConventionSearch.m */,
+				F0C04812132C74A8001B2821 /* TCConventionSearch.xib */,
+			);
+			name = TCConventionSearch;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -374,6 +390,7 @@
 				F01FFCA4130E90170024AD14 /* TattooConventions_Background_IPHONE_LOAD_960x640.png in Resources */,
 				F01FFCA5130E90170024AD14 /* TattooConventions_IPHONE_LOAD_960x640.png in Resources */,
 				F01FFCA6130E90170024AD14 /* Default.png in Resources */,
+				F0C04814132C74A8001B2821 /* TCConventionSearch.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +435,7 @@
 				F07405F0130E89E10071B201 /* TCConnectionToNetwork.m in Sources */,
 				F07405FC130E8ABE0071B201 /* TCDownLoadXML.m in Sources */,
 				F086FF74132108260040D3D1 /* XPathQuery.m in Sources */,
+				F0C04813132C74A8001B2821 /* TCConventionSearch.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

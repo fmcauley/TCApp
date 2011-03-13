@@ -8,17 +8,16 @@
 #define DEBUG_TC
 
 #import "TCAppAppDelegate_iPhone.h"
-#import "InformationViewController.h"
 
 @implementation TCAppAppDelegate_iPhone
 
 @synthesize window;
-@synthesize info;
+@synthesize tabBarController;
 
 - (void)dealloc
 {
 	[window release];
-    [info   release];
+    [tabBarController release], tabBarController = nil;
     [super dealloc];
 }
 
@@ -29,7 +28,7 @@
   
     
     [[UIApplication sharedApplication] setStatusBarStyle: UIStatusBarStyleBlackOpaque];
-    self.window.rootViewController = self.info;
+    [self.window addSubview:tabBarController.view];
     [self.window makeKeyAndVisible];
     return YES;
     
