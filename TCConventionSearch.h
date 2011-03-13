@@ -7,10 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+@class TCDownLoadXML;
 
 
 @interface TCConventionSearch : UITableViewController {
     
 }
+
+@property(nonatomic, retain) TCDownLoadXML *tcDownLoad;
+@property(nonatomic, retain) IBOutlet UIActivityIndicatorView *activity;
 
 @end

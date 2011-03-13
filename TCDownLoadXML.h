@@ -9,9 +9,12 @@
 #import <Foundation/Foundation.h>
 
 
-@interface TCDownLoadXML : NSObject  {
-    
-}
+
+@interface TCDownLoadXML : NSObject  {}
+
+@property(nonatomic, retain)NSArray *nameOfConventions;
 
 -(void)downloadAndProcess;
+
+-(id)initWithDownLoad;
 @end
