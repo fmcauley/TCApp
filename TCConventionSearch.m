@@ -9,10 +9,14 @@
 #import "TCConventionSearch.h"
 #import "TCDownLoadXML.h"
 
+@interface TCConventionSearch (){@private}
+@property(nonatomic, retain)NSArray *tableName;
+@end
+
 @implementation TCConventionSearch
 
 @synthesize tcDownLoad;
-@synthesize activity;
+@synthesize tableName;
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -64,14 +68,13 @@
 }
 
 -(void)reloadDataAfterLoad {
+    self.tableName = [tcDownLoad.nameOfConventions valueForKey:@"nodeContent"];
     [self.tableView reloadData];
-    [self.activity stopAnimating];
-}
+   }
 
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
-    [self.activity startAnimating];
     tcDownLoad = [[TCDownLoadXML alloc]init];
     [tcDownLoad downloadAndProcess];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(reloadDataAfterLoad) name:@"notificationName" object:nil];
@@ -111,7 +114,7 @@
 {
 
     // Return the number of rows in the section.
-    return [tcDownLoad.nameOfConventions count];
+    return [self.tableName count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -124,7 +127,7 @@
     }
     
     // Configure the cell...
-    cell.textLabel.text	= [[tcDownLoad.nameOfConventions valueForKey:@"nodeContent"] objectAtIndex:indexPath.row];   
+   cell.textLabel.text	= [self.tableName objectAtIndex:indexPath.row];   
     
     return cell;
 }
