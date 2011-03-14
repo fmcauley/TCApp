@@ -11,12 +11,16 @@
 
 @interface TCConventionSearch (){@private}
 @property(nonatomic, retain)NSArray *tableName;
+@property(nonatomic, retain)NSArray *tableDate;
+@property(nonatomic, retain)NSArray *tableAddress;
 @end
 
 @implementation TCConventionSearch
 
 @synthesize tcDownLoad;
 @synthesize tableName;
+@synthesize tableDate;
+@synthesize tableAddress;
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -29,7 +33,7 @@
 
 - (void)dealloc
 {
-    [tcDownLoad release], tcDownLoad = nil;
+    //[tcDownLoad release], tcDownLoad = nil;
     [super dealloc];
 }
 
@@ -69,6 +73,9 @@
 
 -(void)reloadDataAfterLoad {
     self.tableName = [tcDownLoad.nameOfConventions valueForKey:@"nodeContent"];
+    self.tableDate = tcDownLoad.dateOfConventions;
+    self.tableAddress = [tcDownLoad.addressOfConventions valueForKey:@"nodeContent"];
+    [tcDownLoad release];
     [self.tableView reloadData];
    }
 
@@ -123,11 +130,13 @@
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
-        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
+        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleValue2 reuseIdentifier:CellIdentifier] autorelease];
     }
     
     // Configure the cell...
-   cell.textLabel.text	= [self.tableName objectAtIndex:indexPath.row];   
+    cell.textLabel.text	= [self.tableName objectAtIndex:indexPath.row];
+    cell.detailTextLabel.text	= [self.tableDate objectAtIndex:indexPath.row];
+   
     
     return cell;
 }
