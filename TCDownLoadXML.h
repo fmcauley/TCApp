@@ -13,6 +13,8 @@
 @interface TCDownLoadXML : NSObject  {}
 
 @property(nonatomic, retain)NSArray *nameOfConventions;
+@property(nonatomic, retain)NSArray *addressOfConventions;
+@property(nonatomic, retain)NSMutableArray *dateOfConventions;
 
 -(void)downloadAndProcess;
 
