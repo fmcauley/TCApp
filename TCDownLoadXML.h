@@ -15,6 +15,7 @@
 @property(nonatomic, retain)NSArray *nameOfConventions;
 @property(nonatomic, retain)NSArray *addressOfConventions;
 @property(nonatomic, retain)NSMutableArray *dateOfConventions;
+@property(nonatomic, retain)NSArray *urlOfConventions;
 
 -(void)downloadAndProcess;
 

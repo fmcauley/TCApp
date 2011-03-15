@@ -2391,7 +2391,7 @@
 				</dict>
 			</array>
 		</dict>
-		<string>{{1532, -163}, {1324, 778}}</string>
+		<string>{{1587, -147}, {1324, 778}}</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -13404,9 +13404,9 @@
     s = 0;
 }</string>
 		</dict>
-		<real>321812887.36398798</real>
-		<string>{2790, 1846}</string>
-		<string>{3886, 0}</string>
+		<real>321888994.61087102</real>
+		<string>{2299, 2259}</string>
+		<string>{4299, 0}</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -13489,8 +13489,8 @@
     s = 0;
 }</string>
 		</dict>
-		<real>321819457.98918301</real>
-		<string>{2941, 774}</string>
+		<real>321888843.32589</real>
+		<string>{1254, 1527}</string>
 		<string>{3474, 0}</string>
 		<dict>
 			<key>$class</key>
@@ -13755,9 +13755,9 @@
 				</dict>
 			</array>
 		</dict>
-		<real>321809687.43567002</real>
-		<string>{0, 468}</string>
-		<string>{348, 62}</string>
+		<real>321888666.17279702</real>
+		<string>{0, 523}</string>
+		<string>{448, 16}</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -20624,7 +20624,7 @@
 				<integer>1576</integer>
 			</dict>
 			<key>NS.time</key>
-			<real>321819434.12780797</real>
+			<real>321888963.87258601</real>
 		</dict>
 		<dict>
 			<key>$classes</key>
@@ -20635,7 +20635,7 @@
 			<key>$classname</key>
 			<string>NSDate</string>
 		</dict>
-		<string>Today at 2:17 PM</string>
+		<string>Today at 9:36 AM</string>
 		<integer>106</integer>
 		<dict>
 			<key>$class</key>
@@ -20651,11 +20651,11 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>14</integer>
+					<integer>2</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>2</integer>
+					<integer>14</integer>
 				</dict>
 			</array>
 		</dict>
@@ -20865,11 +20865,11 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1160</integer>
+					<integer>1603</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>1603</integer>
+					<integer>1160</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -20910,7 +20910,7 @@
 				<integer>1598</integer>
 			</dict>
 		</dict>
-		<string>file://localhost/Users/frankmcauley/Durbs_Apps/TC_NEW_BUILD/TCApp/TCConventionSearch.m</string>
+		<string>file://localhost/Users/frankmcauley/Durbs_Apps/TattooConventionsApp/TattooConventionsApp/TCDownLoadXML.m</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -20928,7 +20928,7 @@
 				<integer>1600</integer>
 			</dict>
 		</dict>
-		<string>file://localhost/Users/frankmcauley/Durbs_Apps/TattooConventionsApp/TattooConventionsApp/TCDownLoadXML.m</string>
+		<string>file://localhost/Users/frankmcauley/Durbs_Apps/TC_NEW_BUILD/TCApp/TCConventionSearch.m</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -20946,7 +20946,7 @@
 				<integer>1602</integer>
 			</dict>
 		</dict>
-		<string>file://localhost/Users/frankmcauley/Durbs_Apps/TC_NEW_BUILD/TCApp/TCConventionSearch.h</string>
+		<string>file://localhost/Users/frankmcauley/Durbs_Apps/TC_NEW_BUILD/TCApp/TCDownLoadXML.h</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -20964,7 +20964,7 @@
 				<integer>1604</integer>
 			</dict>
 		</dict>
-		<string>file://localhost/Users/frankmcauley/Durbs_Apps/TC_NEW_BUILD/TCApp/XPathQuery.m</string>
+		<string>file://localhost/Users/frankmcauley/Durbs_Apps/TC_NEW_BUILD/TCApp/TCConventionSearch.h</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -20982,7 +20982,7 @@
 				<integer>1606</integer>
 			</dict>
 		</dict>
-		<string>file://localhost/Users/frankmcauley/Durbs_Apps/TC_NEW_BUILD/TCApp/XPathQuery.h</string>
+		<string>file://localhost/Users/frankmcauley/Durbs_Apps/TC_NEW_BUILD/TCApp/XPathQuery.m</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -21000,7 +21000,7 @@
 				<integer>1608</integer>
 			</dict>
 		</dict>
-		<string>file://localhost/Users/frankmcauley/Durbs_Apps/TC_NEW_BUILD/TCApp/TCDownLoadXML.h</string>
+		<string>file://localhost/Users/frankmcauley/Durbs_Apps/TC_NEW_BUILD/TCApp/XPathQuery.h</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -32548,7 +32548,7 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>153</integer>
+					<integer>163</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -32727,7 +32727,7 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>2193</integer>
+					<integer>2194</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -32809,7 +32809,7 @@
 				<integer>2187</integer>
 			</dict>
 		</dict>
-		<string>TCConventionSearch.m</string>
+		<string>TCDownLoadXML.m</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -32822,7 +32822,7 @@
 				<integer>2189</integer>
 			</dict>
 		</dict>
-		<string>TCConventionSearch</string>
+		<string>TCDownLoadXML</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -32845,13 +32845,22 @@
 			<key>documentURL</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>930</integer>
+				<integer>2193</integer>
 			</dict>
 			<key>timestamp</key>
 			<dict>
 				<key>CF$UID</key>
 				<integer>0</integer>
 			</dict>
+		</dict>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>61</integer>
+			</dict>
+			<key>NS.string</key>
+			<string>file://localhost/Users/frankmcauley/Durbs_Apps/TattooConventionsApp/TattooConventionsApp/TCDownLoadXML.m</string>
 		</dict>
 		<dict>
 			<key>$class</key>
@@ -32886,7 +32895,7 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>2194</integer>
+					<integer>1002</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -32906,39 +32915,10 @@
 				</dict>
 			</array>
 		</dict>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>61</integer>
-			</dict>
-			<key>NS.string</key>
-			<string>{
-    c =     (
-                {
-            l = DetailViewController;
-            r = "{5293, 24}";
-            s = 1;
-        },
-                {
-            l = DetailViewController;
-            r = "{5344, 24}";
-            s = 1;
-        },
-                {
-            l = "Nib name";
-            r = "{5394, 12}";
-            s = 1;
-        }
-    );
-    r = "{0, 5634}";
-    s = 0;
-}</string>
-		</dict>
-		<real>321819457.99438</real>
-		<string>{2941, 774}</string>
-		<string>{3474, 0}</string>
-		<string>-tableView:cellForRowAtIndexPath:</string>
+		<real>321888994.61500299</real>
+		<string>{2299, 2259}</string>
+		<string>{4299, 0}</string>
+		<string>-connectionDidFinishLoading:</string>
 		<string>Xcode.IDEKit.EditorDocument.SourceCode</string>
 		<dict>
 			<key>$class</key>
@@ -32957,7 +32937,7 @@
 				<integer>2201</integer>
 			</dict>
 		</dict>
-		<string>file://localhost/Users/frankmcauley/Durbs_Apps/TC_NEW_BUILD/TCApp/TCConventionSearch.m</string>
+		<string>file://localhost/Users/frankmcauley/Durbs_Apps/TattooConventionsApp/TattooConventionsApp/TCDownLoadXML.m</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -32972,7 +32952,7 @@
 				</dict>
 			</array>
 		</dict>
-		<string>{{0, 0}, {1016, 308}}</string>
+		<string>{{0, 0}, {1016, 680}}</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -37254,7 +37234,7 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>176</integer>
+					<integer>2496</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -37405,11 +37385,11 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>2518</integer>
+					<integer>2517</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>2519</integer>
+					<integer>2518</integer>
 				</dict>
 			</array>
 		</dict>
@@ -37478,11 +37458,10 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>2517</integer>
+					<integer>2189</integer>
 				</dict>
 			</array>
 		</dict>
-		<string>TCDownLoadXML</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -37519,10 +37498,11 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>2189</integer>
+					<integer>2519</integer>
 				</dict>
 			</array>
 		</dict>
+		<string>TCConventionSearch</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -38127,7 +38107,7 @@
 			</array>
 		</dict>
 		<real>429</real>
-		<string>TCConventionSearch.m</string>
+		<string>TCDownLoadXML.m</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -40221,7 +40201,7 @@
 			<key>Identifier</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>2189</integer>
+				<integer>2519</integer>
 			</dict>
 		</dict>
 		<dict>
@@ -40526,7 +40506,7 @@
 			<key>Identifier</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>2189</integer>
+				<integer>2519</integer>
 			</dict>
 		</dict>
 		<dict>
@@ -41337,7 +41317,7 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>2189</integer>
+					<integer>2519</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -41408,7 +41388,7 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>2189</integer>
+					<integer>2519</integer>
 				</dict>
 			</array>
 		</dict>
@@ -41466,7 +41446,7 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>2517</integer>
+					<integer>2189</integer>
 				</dict>
 			</array>
 		</dict>
@@ -41635,7 +41615,7 @@
 				</dict>
 			</array>
 		</dict>
-		<string>{{1426, -19}, {1387, 768}}</string>
+		<string>{{1342, 3}, {1387, 768}}</string>
 		<dict>
 			<key>$class</key>
 			<dict>
