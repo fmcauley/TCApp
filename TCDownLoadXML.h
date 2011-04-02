@@ -21,4 +21,6 @@
 -(void)downloadAndProcess;
 
 -(id)initWithDownLoad;
+
+-(NSArray *)returnConventionsNamesForTableView;
 @end

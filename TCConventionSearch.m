@@ -72,7 +72,10 @@
 }
 
 -(void)reloadDataAfterLoad {
-    self.tableName = [tcDownLoad.nameOfConventions valueForKey:@"nodeContent"];
+   // self.tableName = [tcDownLoad.nameOfConventions valueForKey:@"nodeContent"];
+    self.tableName = tcDownLoad.nameOfConventions;
+    
+    
     self.tableDate = tcDownLoad.dateOfConventions;
     self.tableAddress = [tcDownLoad.addressOfConventions valueForKey:@"nodeContent"];
     [tcDownLoad release];
