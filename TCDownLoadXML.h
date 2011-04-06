@@ -22,5 +22,5 @@
 
 -(id)initWithDownLoad;
 
--(NSArray *)returnConventionsNamesForTableView;
+-(NSArray *)returnConventionsNamesForTableViewWithData:(NSData *)data;
 @end
