@@ -22,15 +22,16 @@
 @synthesize tableName;
 @synthesize tableDate;
 @synthesize tableAddress;
+@synthesize tableView;
 
-- (id)initWithStyle:(UITableViewStyle)style
+/*- (id)initWithStyle:(UITableViewStyle)style
 {
     self = [super initWithStyle:style];
     if (self) {
 
     }
     return self;
-}
+}*/
 
 - (void)dealloc
 {
@@ -118,7 +119,7 @@
 {
     static NSString *CellIdentifier = @"Cell";
     
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    UITableViewCell *cell = [self.tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
         cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier] autorelease];
     }
@@ -137,11 +138,12 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    [self.tableView deselectRowAtIndexPath:indexPath animated:YES];
     
-    TCWebView* webView = [[TCWebView alloc]initWithNibName:@"TCWebView" bundle:nil];
-    [self.navigationController pushViewController:webView animated:YES];
-    [webView release];
+    TCWebView* webViewController = [[TCWebView alloc]initWithNibName:@"TCWebView" bundle:nil];
+   // [self presentModalViewController:webViewController animated:YES];
+    [self.navigationController pushViewController:webViewController animated:YES];
+    [webViewController release];
 }
 
 @end

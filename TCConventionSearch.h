@@ -10,10 +10,11 @@
 @class TCDownLoadXML;
 
 
-@interface TCConventionSearch : UITableViewController <UITableViewDelegate,UITableViewDataSource> {
+@interface TCConventionSearch : UIViewController <UITableViewDelegate,UITableViewDataSource> {
     
 }
 
 @property(nonatomic, retain) TCDownLoadXML *tcDownLoad;
+@property(nonatomic, retain) IBOutlet UITableView* tableView;
 
 @end
