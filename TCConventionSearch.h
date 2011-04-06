@@ -10,7 +10,7 @@
 @class TCDownLoadXML;
 
 
-@interface TCConventionSearch : UITableViewController {
+@interface TCConventionSearch : UITableViewController <UITableViewDelegate,UITableViewDataSource> {
     
 }
 
