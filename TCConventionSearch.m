@@ -8,6 +8,7 @@
 
 #import "TCConventionSearch.h"
 #import "TCDownLoadXML.h"
+#import "TCWebView.h"
 
 @interface TCConventionSearch (){@private}
 @property(nonatomic, retain)NSArray *tableName;
@@ -125,6 +126,7 @@
     // Configure the cell...
     cell.textLabel.text	= [self.tableName objectAtIndex:indexPath.row];
     cell.detailTextLabel.text	= [self.tableDate objectAtIndex:indexPath.row];
+    cell.imageView.image = [UIImage imageNamed:@"icon-small-50.png"]; //this is a place holder for some other images that I will use.
    
     
     return cell;
@@ -173,16 +175,11 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    //Build a webview that will be pointed to the url for the convention.
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
     
-    // Navigation logic may go here. Create and push another view controller.
-    /*
-     <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
-     // ...
-     // Pass the selected object to the new view controller.
-     [self.navigationController pushViewController:detailViewController animated:YES];
-     [detailViewController release];
-     */
+    TCWebView* webView = [[TCWebView alloc]initWithNibName:@"TCWebView" bundle:nil];
+    [self.navigationController pushViewController:webView animated:YES];
+    [webView release];
 }
 
 @end
