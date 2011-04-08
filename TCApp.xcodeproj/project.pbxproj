@@ -46,6 +46,8 @@
 		F086FF74132108260040D3D1 /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = F086FF73132108250040D3D1 /* XPathQuery.m */; };
 		F08C5C15134BF83D00F8B5F9 /* TCWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = F08C5C13134BF83D00F8B5F9 /* TCWebView.m */; };
 		F08C5C16134BF83D00F8B5F9 /* TCWebView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F08C5C14134BF83D00F8B5F9 /* TCWebView.xib */; };
+		F08C5C31134E98F300F8B5F9 /* TCNavTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = F08C5C2F134E98F300F8B5F9 /* TCNavTableView.m */; };
+		F08C5C32134E98F300F8B5F9 /* TCNavTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F08C5C30134E98F300F8B5F9 /* TCNavTableView.xib */; };
 		F0C04813132C74A8001B2821 /* TCConventionSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C04811132C74A8001B2821 /* TCConventionSearch.m */; };
 		F0C04814132C74A8001B2821 /* TCConventionSearch.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0C04812132C74A8001B2821 /* TCConventionSearch.xib */; };
 /* End PBXBuildFile section */
@@ -110,6 +112,9 @@
 		F08C5C12134BF83D00F8B5F9 /* TCWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCWebView.h; sourceTree = "<group>"; };
 		F08C5C13134BF83D00F8B5F9 /* TCWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCWebView.m; sourceTree = "<group>"; };
 		F08C5C14134BF83D00F8B5F9 /* TCWebView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TCWebView.xib; sourceTree = "<group>"; };
+		F08C5C2E134E98F300F8B5F9 /* TCNavTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCNavTableView.h; sourceTree = "<group>"; };
+		F08C5C2F134E98F300F8B5F9 /* TCNavTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCNavTableView.m; sourceTree = "<group>"; };
+		F08C5C30134E98F300F8B5F9 /* TCNavTableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TCNavTableView.xib; sourceTree = "<group>"; };
 		F0C04810132C74A8001B2821 /* TCConventionSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCConventionSearch.h; sourceTree = "<group>"; };
 		F0C04811132C74A8001B2821 /* TCConventionSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCConventionSearch.m; sourceTree = "<group>"; };
 		F0C04812132C74A8001B2821 /* TCConventionSearch.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TCConventionSearch.xib; sourceTree = "<group>"; };
@@ -146,6 +151,7 @@
 		F0740585130E886C0071B201 = {
 			isa = PBXGroup;
 			children = (
+				F08C5C2D134E98A000F8B5F9 /* TCNavTableView */,
 				F08C5C10134BF81100F8B5F9 /* TCWebView */,
 				F0C0480E132C745D001B2821 /* TCConventionSearch */,
 				F086FF6E1321073B0040D3D1 /* TCXml */,
@@ -311,6 +317,16 @@
 			name = TCWebView;
 			sourceTree = "<group>";
 		};
+		F08C5C2D134E98A000F8B5F9 /* TCNavTableView */ = {
+			isa = PBXGroup;
+			children = (
+				F08C5C2E134E98F300F8B5F9 /* TCNavTableView.h */,
+				F08C5C2F134E98F300F8B5F9 /* TCNavTableView.m */,
+				F08C5C30134E98F300F8B5F9 /* TCNavTableView.xib */,
+			);
+			name = TCNavTableView;
+			sourceTree = "<group>";
+		};
 		F0C0480E132C745D001B2821 /* TCConventionSearch */ = {
 			isa = PBXGroup;
 			children = (
@@ -408,6 +424,7 @@
 				F01FFCA6130E90170024AD14 /* Default.png in Resources */,
 				F0C04814132C74A8001B2821 /* TCConventionSearch.xib in Resources */,
 				F08C5C16134BF83D00F8B5F9 /* TCWebView.xib in Resources */,
+				F08C5C32134E98F300F8B5F9 /* TCNavTableView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -454,6 +471,7 @@
 				F086FF74132108260040D3D1 /* XPathQuery.m in Sources */,
 				F0C04813132C74A8001B2821 /* TCConventionSearch.m in Sources */,
 				F08C5C15134BF83D00F8B5F9 /* TCWebView.m in Sources */,
+				F08C5C31134E98F300F8B5F9 /* TCNavTableView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

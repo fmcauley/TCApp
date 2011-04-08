@@ -13,13 +13,11 @@
 
 @synthesize window;
 @synthesize tabBarController;
-@synthesize nav;
 
 - (void)dealloc
 {
 	[window release];
     [tabBarController release];
-    [nav release];
     [super dealloc];
 }
 
@@ -31,7 +29,6 @@
     
     [[UIApplication sharedApplication] setStatusBarStyle: UIStatusBarStyleBlackOpaque];
     [self.window addSubview:tabBarController.view];
-    [self.window addSubview:nav.view];
     [self.window makeKeyAndVisible];
     return YES;
     

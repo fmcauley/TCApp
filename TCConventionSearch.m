@@ -51,19 +51,19 @@
 
     self.tableView.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"TattooConventions_Background_IPHONE_LOAD_480x320"]];
     
+    TCConventionSearch* tcc = [[TCConventionSearch alloc]init];
+    UINavigationController* nav = [[UINavigationController alloc]init];
+    [nav pushViewController:tcc animated:NO];
+    [tcc release];
+    
 
-    [self.tableView reloadData];
+    //[self.tableView reloadData];
 
 }
 
 - (void)viewDidUnload
 {
     [super viewDidUnload];
-    
-    tcDownLoad = [[TCDownLoadXML alloc]init];
-    [tcDownLoad downloadAndProcess];
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(reloadDataAfterLoad) name:@"notificationName" object:nil];
-
     
 }
 
@@ -79,6 +79,10 @@
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
+    
+    tcDownLoad = [[TCDownLoadXML alloc]init];
+    [tcDownLoad downloadAndProcess];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(reloadDataAfterLoad) name:@"notificationName" object:nil];
 }
 
 - (void)viewDidAppear:(BOOL)animated
