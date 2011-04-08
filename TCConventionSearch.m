@@ -59,6 +59,12 @@
 - (void)viewDidUnload
 {
     [super viewDidUnload];
+    
+    tcDownLoad = [[TCDownLoadXML alloc]init];
+    [tcDownLoad downloadAndProcess];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(reloadDataAfterLoad) name:@"notificationName" object:nil];
+
+    
 }
 
 -(void)reloadDataAfterLoad {
@@ -73,9 +79,6 @@
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
-    tcDownLoad = [[TCDownLoadXML alloc]init];
-    [tcDownLoad downloadAndProcess];
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(reloadDataAfterLoad) name:@"notificationName" object:nil];
 }
 
 - (void)viewDidAppear:(BOOL)animated
