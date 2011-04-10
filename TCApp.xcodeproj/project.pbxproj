@@ -18,6 +18,7 @@
 		F01FFCA4130E90170024AD14 /* TattooConventions_Background_IPHONE_LOAD_960x640.png in Resources */ = {isa = PBXBuildFile; fileRef = F01FFCA0130E90170024AD14 /* TattooConventions_Background_IPHONE_LOAD_960x640.png */; };
 		F01FFCA5130E90170024AD14 /* TattooConventions_IPHONE_LOAD_960x640.png in Resources */ = {isa = PBXBuildFile; fileRef = F01FFCA1130E90170024AD14 /* TattooConventions_IPHONE_LOAD_960x640.png */; };
 		F01FFCA6130E90170024AD14 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F01FFCA2130E90170024AD14 /* Default.png */; };
+		F0312EB613520E2E00B70C4D /* TCProcessDownloadedFile.m in Sources */ = {isa = PBXBuildFile; fileRef = F0312EB513520E2E00B70C4D /* TCProcessDownloadedFile.m */; };
 		F0740595130E886D0071B201 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0740594130E886D0071B201 /* UIKit.framework */; };
 		F0740597130E886D0071B201 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0740596130E886D0071B201 /* Foundation.framework */; };
 		F0740599130E886D0071B201 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0740598130E886D0071B201 /* CoreGraphics.framework */; };
@@ -74,6 +75,8 @@
 		F01FFCA0130E90170024AD14 /* TattooConventions_Background_IPHONE_LOAD_960x640.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TattooConventions_Background_IPHONE_LOAD_960x640.png; sourceTree = "<group>"; };
 		F01FFCA1130E90170024AD14 /* TattooConventions_IPHONE_LOAD_960x640.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TattooConventions_IPHONE_LOAD_960x640.png; sourceTree = "<group>"; };
 		F01FFCA2130E90170024AD14 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F0312EB413520E2E00B70C4D /* TCProcessDownloadedFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCProcessDownloadedFile.h; sourceTree = "<group>"; };
+		F0312EB513520E2E00B70C4D /* TCProcessDownloadedFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCProcessDownloadedFile.m; sourceTree = "<group>"; };
 		F0740590130E886D0071B201 /* TCApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TCApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0740594130E886D0071B201 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F0740596130E886D0071B201 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -148,9 +151,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F0312EB213520DEB00B70C4D /* TCProcessDownloadedFile */ = {
+			isa = PBXGroup;
+			children = (
+				F0312EB413520E2E00B70C4D /* TCProcessDownloadedFile.h */,
+				F0312EB513520E2E00B70C4D /* TCProcessDownloadedFile.m */,
+			);
+			name = TCProcessDownloadedFile;
+			sourceTree = "<group>";
+		};
 		F0740585130E886C0071B201 = {
 			isa = PBXGroup;
 			children = (
+				F0312EB213520DEB00B70C4D /* TCProcessDownloadedFile */,
 				F08C5C2D134E98A000F8B5F9 /* TCNavTableView */,
 				F08C5C10134BF81100F8B5F9 /* TCWebView */,
 				F0C0480E132C745D001B2821 /* TCConventionSearch */,
@@ -472,6 +485,7 @@
 				F0C04813132C74A8001B2821 /* TCConventionSearch.m in Sources */,
 				F08C5C15134BF83D00F8B5F9 /* TCWebView.m in Sources */,
 				F08C5C31134E98F300F8B5F9 /* TCNavTableView.m in Sources */,
+				F0312EB613520E2E00B70C4D /* TCProcessDownloadedFile.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
