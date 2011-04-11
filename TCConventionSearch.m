@@ -24,15 +24,6 @@
 @synthesize tableAddress;
 @synthesize tableView;
 
-/*- (id)initWithStyle:(UITableViewStyle)style
-{
-    self = [super initWithStyle:style];
-    if (self) {
-
-    }
-    return self;
-}*/
-
 - (void)dealloc
 {
     [super dealloc];

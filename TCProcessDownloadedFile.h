@@ -11,6 +11,9 @@
 
 @interface TCProcessDownloadedFile : NSObject {
     
+    
 }
+
++ (TCProcessDownloadedFile*)returnedBuitTCProcessDownloadFile;
 
 @end

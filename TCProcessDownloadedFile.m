@@ -11,4 +11,14 @@
 
 @implementation TCProcessDownloadedFile
 
+- (void)writeFileWithURL:(NSURL*)url AndData:(NSData*)data {
+    
+   //TODO build out 
+}
+
++ (TCProcessDownloadedFile*)returnedBuitTCProcessDownloadFile{
+    
+    return [[[TCProcessDownloadedFile alloc]init] autorelease];
+}
+
 @end
