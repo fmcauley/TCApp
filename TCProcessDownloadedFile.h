@@ -16,4 +16,6 @@
 
 + (TCProcessDownloadedFile*)returnedBuitTCProcessDownloadFile;
 
+- (void)processFileAfterDownload:(NSData*)data;
+
 @end

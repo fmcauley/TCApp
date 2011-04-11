@@ -11,14 +11,19 @@
 
 @implementation TCProcessDownloadedFile
 
-- (void)writeFileWithURL:(NSURL*)url AndData:(NSData*)data {
-    
-   //TODO build out 
-}
+
 
 + (TCProcessDownloadedFile*)returnedBuitTCProcessDownloadFile{
     
     return [[[TCProcessDownloadedFile alloc]init] autorelease];
+}
+
+- (void)processFileAfterDownload:(NSData*)data{
+    
+    //setup NSNotification:
+    
+ //   [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(reloadDataAfterLoad) name:@"notificationName" object:nil];
+    
 }
 
 @end
