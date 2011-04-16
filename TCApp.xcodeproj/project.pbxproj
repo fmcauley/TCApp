@@ -593,6 +593,7 @@
 					"\"$(SRCROOT)/../../../Desktop/NextXMLTEst\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -611,6 +612,7 @@
 					"\"$(SRCROOT)/../../../Desktop/NextXMLTEst\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
@@ -670,7 +672,7 @@
 				F07405D1130E886D0071B201 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		F07405D2130E886D0071B201 /* Build configuration list for PBXNativeTarget "TCApp" */ = {
 			isa = XCConfigurationList;
@@ -679,7 +681,7 @@
 				F07405D4130E886D0071B201 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		F07405D5130E886D0071B201 /* Build configuration list for PBXNativeTarget "TCAppTests" */ = {
 			isa = XCConfigurationList;
@@ -688,7 +690,7 @@
 				F07405D7130E886D0071B201 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 

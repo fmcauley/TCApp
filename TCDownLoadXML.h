@@ -8,19 +8,27 @@
 
 #import <Foundation/Foundation.h>
 
+@protocol TCDownLoadXMLDelegate;
 
+@interface TCDownLoadXML : NSObject 
+{
+@private
+    
+    id <TCDownLoadXMLDelegate> _delegate;
+    NSData* _fileDownloaded;
+}
 
-@interface TCDownLoadXML : NSObject  {}
+@property(assign) id <TCDownLoadXMLDelegate> delegate;
+@property(nonatomic, retain) NSData* fileDownloaded;
 
-@property(nonatomic, retain)NSArray *nameOfConventions;
-@property(nonatomic, retain)NSArray *addressOfConventions;
-@property(nonatomic, retain)NSMutableArray *dateOfConventions;
-@property(nonatomic, retain)NSArray *urlOfConventions;
-@property(nonatomic, retain)NSArray *artistsOfConventions;
 
 -(void)downloadAndProcess;
-
 -(id)initWithDownLoad;
 
--(NSArray *)returnConventionsNamesForTableViewWithData:(NSData *)data;
+@end
+
+@protocol TCDownLoadXMLDelegate
+
+- (void)tcDownLoadXML:(TCDownLoadXML*)sender didDownLoadData:(NSData*)data;
+
 @end

@@ -22,7 +22,7 @@
 @synthesize tableName;
 @synthesize tableDate;
 @synthesize tableAddress;
-@synthesize tableView;
+@synthesize tableView=_tableView;
 
 - (void)dealloc
 {

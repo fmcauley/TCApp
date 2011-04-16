@@ -12,6 +12,8 @@
 
 @interface TCConventionSearch : UIViewController <UITableViewDelegate,UITableViewDataSource> {
     
+    UITableView* _tableView;
+    
 }
 
 @property(nonatomic, retain) TCDownLoadXML *tcDownLoad;
