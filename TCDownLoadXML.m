@@ -11,4 +11,15 @@
 
 @implementation TCDownLoadXML
 
+@synthesize fileDownloaded=_fileDownloaded;
+@synthesize delegate=_delegate;
+
+
+- (void)dealloc {
+    
+    [_fileDownloaded release];
+        
+    [super dealloc];
+}
+
 @end
