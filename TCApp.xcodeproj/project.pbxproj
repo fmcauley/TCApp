@@ -43,7 +43,6 @@
 		F07405F0130E89E10071B201 /* TCConnectionToNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = F07405E5130E89E10071B201 /* TCConnectionToNetwork.m */; };
 		F07405F1130E89E10071B201 /* InformationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F07405E7130E89E10071B201 /* InformationViewController.xib */; };
 		F07405FA130E8A530071B201 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F07405F9130E8A530071B201 /* SystemConfiguration.framework */; };
-		F07405FC130E8ABE0071B201 /* TCDownLoadXML.m in Sources */ = {isa = PBXBuildFile; fileRef = F07405FB130E8ABE0071B201 /* TCDownLoadXML.m */; };
 		F086FF74132108260040D3D1 /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = F086FF73132108250040D3D1 /* XPathQuery.m */; };
 		F08C5C15134BF83D00F8B5F9 /* TCWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = F08C5C13134BF83D00F8B5F9 /* TCWebView.m */; };
 		F08C5C16134BF83D00F8B5F9 /* TCWebView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F08C5C14134BF83D00F8B5F9 /* TCWebView.xib */; };
@@ -102,14 +101,12 @@
 		F07405CC130E886D0071B201 /* TCAppTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCAppTests.h; sourceTree = "<group>"; };
 		F07405CE130E886D0071B201 /* TCAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCAppTests.m; sourceTree = "<group>"; };
 		F07405E0130E89430071B201 /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = ../../../Desktop/NextXMLTEst/libxml2.2.dylib; sourceTree = "<group>"; };
-		F07405E2130E89E10071B201 /* TCDownLoadXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCDownLoadXML.h; sourceTree = "<group>"; };
 		F07405E3130E89E10071B201 /* InformationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InformationViewController.m; sourceTree = "<group>"; };
 		F07405E4130E89E10071B201 /* TCConnectionToNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCConnectionToNetwork.h; sourceTree = "<group>"; };
 		F07405E5130E89E10071B201 /* TCConnectionToNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCConnectionToNetwork.m; sourceTree = "<group>"; };
 		F07405E6130E89E10071B201 /* InformationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InformationViewController.h; sourceTree = "<group>"; };
 		F07405E7130E89E10071B201 /* InformationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InformationViewController.xib; sourceTree = "<group>"; };
 		F07405F9130E8A530071B201 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		F07405FB130E8ABE0071B201 /* TCDownLoadXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TCDownLoadXML.m; path = ../../TattooConventionsApp/TattooConventionsApp/TCDownLoadXML.m; sourceTree = "<group>"; };
 		F086FF72132108250040D3D1 /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPathQuery.h; sourceTree = "<group>"; };
 		F086FF73132108250040D3D1 /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPathQuery.m; sourceTree = "<group>"; };
 		F08C5C12134BF83D00F8B5F9 /* TCWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCWebView.h; sourceTree = "<group>"; };
@@ -305,8 +302,6 @@
 		F0740600130E8BCF0071B201 /* TCDownLoadXML */ = {
 			isa = PBXGroup;
 			children = (
-				F07405E2130E89E10071B201 /* TCDownLoadXML.h */,
-				F07405FB130E8ABE0071B201 /* TCDownLoadXML.m */,
 			);
 			name = TCDownLoadXML;
 			sourceTree = "<group>";
@@ -480,7 +475,6 @@
 				F07405B5130E886D0071B201 /* TCAppAppDelegate_iPad.m in Sources */,
 				F07405EF130E89E10071B201 /* InformationViewController.m in Sources */,
 				F07405F0130E89E10071B201 /* TCConnectionToNetwork.m in Sources */,
-				F07405FC130E8ABE0071B201 /* TCDownLoadXML.m in Sources */,
 				F086FF74132108260040D3D1 /* XPathQuery.m in Sources */,
 				F0C04813132C74A8001B2821 /* TCConventionSearch.m in Sources */,
 				F08C5C15134BF83D00F8B5F9 /* TCWebView.m in Sources */,
