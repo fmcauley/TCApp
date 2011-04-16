@@ -27,9 +27,11 @@
 
 -(id)initWithDownLoad{
     
-    if ((self = [super init])){
+    if ((self = [super init]))
+    {
         return self;
     }
+    
     return nil;
 }
 

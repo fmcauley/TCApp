@@ -8,7 +8,7 @@
 
 #import "TCConventionSearch.h"
 #import "TCDownLoadXML.h"
-#import "TCWebView.h"
+
 
 @interface TCConventionSearch (){@private}
 @property(nonatomic, retain)NSArray *tableName;
@@ -23,9 +23,12 @@
 @synthesize tableDate;
 @synthesize tableAddress;
 @synthesize tableView=_tableView;
+@synthesize fileDownLoadData=_fileDownLoadData;
 
 - (void)dealloc
 {
+    [_fileDownLoadData release];
+    
     [super dealloc];
 }
 
@@ -59,12 +62,12 @@
 }
 
 -(void)reloadDataAfterLoad {
-    self.tableName = [tcDownLoad.nameOfConventions valueForKey:@"nodeContent"];
+   // self.tableName = [tcDownLoad.nameOfConventions valueForKey:@"nodeContent"];
    // self.tableName = tcDownLoad.nameOfConventions;
-    self.tableDate = tcDownLoad.dateOfConventions;
-    self.tableAddress = [tcDownLoad.addressOfConventions valueForKey:@"nodeContent"];
-    [tcDownLoad release];
-    [self.tableView reloadData];
+   // self.tableDate = tcDownLoad.dateOfConventions;
+   // self.tableAddress = [tcDownLoad.addressOfConventions valueForKey:@"nodeContent"];
+    //[tcDownLoad release];
+    //[self.tableView reloadData];
    }
 
 - (void)viewWillAppear:(BOOL)animated
@@ -73,7 +76,19 @@
     
     tcDownLoad = [[TCDownLoadXML alloc]init];
     [tcDownLoad downloadAndProcess];
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(reloadDataAfterLoad) name:@"notificationName" object:nil];
+    tcDownLoad.delegate = self;
+    
+    //[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(reloadDataAfterLoad) name:@"notificationName" object:nil];
+}
+
+#pragma -
+#pragma Delegate Method for the data download
+- (void) tcDownLoadXML:(TCDownLoadXML *)sender didDownLoadData:(NSData *)data {
+    
+    self.fileDownLoadData = data;
+    
+    //test the method
+    NSLog(@"THE DATA OUTPUT: %@",self.fileDownLoadData);
 }
 
 - (void)viewDidAppear:(BOOL)animated
@@ -136,12 +151,7 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    [self.tableView deselectRowAtIndexPath:indexPath animated:YES];
-    
-    TCWebView* webViewController = [[TCWebView alloc]initWithNibName:@"TCWebView" bundle:nil];
-   // [self presentModalViewController:webViewController animated:YES];
-    [self.navigationController pushViewController:webViewController animated:YES];
-    [webViewController release];
+    //Need to add the navigation controller to make this work!
 }
 
 @end
