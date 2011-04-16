@@ -7,18 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "TCDownLoadXML.h"
 
 
-@interface TCConventionSearch : UIViewController <UITableViewDelegate,UITableViewDataSource,TCDownLoadXMLDelegate> {
+
+@interface TCConventionSearch : UIViewController <UITableViewDelegate,UITableViewDataSource> {
     
     UITableView* _tableView;
-    NSData* _fileDownLoadData; //delgate call back data
 }
 
-@property(nonatomic, retain) TCDownLoadXML *tcDownLoad;
 @property(nonatomic, retain) IBOutlet UITableView* tableView;
-
-@property(nonatomic, retain) NSData* fileDownLoadData; //delegate call back data;
 
 @end

@@ -13,11 +13,14 @@
 
 @synthesize window;
 @synthesize tabBarController;
+@synthesize fileDownLoadData;
+@synthesize tcdown;
 
 - (void)dealloc
 {
 	[window release];
     [tabBarController release];
+    [tcdown release];
     [super dealloc];
 }
 
@@ -26,6 +29,9 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {  
   
+    self.tcdown = [[TCDownLoadXML alloc]init];
+    [self.tcdown downloadAndProcess];
+    self.tcdown.delegate = self;
     
     [[UIApplication sharedApplication] setStatusBarStyle: UIStatusBarStyleBlackOpaque];
     [self.window addSubview:tabBarController.view];
@@ -33,6 +39,16 @@
     return YES;
     
     
+}
+
+#pragma -
+#pragma DownLoad Delegate method:
+- (void)tcDownLoadXML:(TCDownLoadXML *)sender didDownLoadData:(NSData *)data{
+    
+    self.fileDownLoadData = data;
+    
+    //test the file:
+    NSLog(@"THE DATA: %@",self.fileDownLoadData);
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

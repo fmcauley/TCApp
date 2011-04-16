@@ -7,7 +7,7 @@
 //
 
 #import "TCConventionSearch.h"
-#import "TCDownLoadXML.h"
+
 
 
 @interface TCConventionSearch (){@private}
@@ -18,17 +18,14 @@
 
 @implementation TCConventionSearch
 
-@synthesize tcDownLoad;
 @synthesize tableName;
 @synthesize tableDate;
 @synthesize tableAddress;
 @synthesize tableView=_tableView;
-@synthesize fileDownLoadData=_fileDownLoadData;
+
 
 - (void)dealloc
 {
-    [_fileDownLoadData release];
-    
     [super dealloc];
 }
 
@@ -49,9 +46,6 @@
     UINavigationController* nav = [[UINavigationController alloc]init];
     [nav pushViewController:tcc animated:NO];
     [tcc release];
-    
-
-    //[self.tableView reloadData];
 
 }
 
@@ -62,34 +56,15 @@
 }
 
 -(void)reloadDataAfterLoad {
-   // self.tableName = [tcDownLoad.nameOfConventions valueForKey:@"nodeContent"];
-   // self.tableName = tcDownLoad.nameOfConventions;
-   // self.tableDate = tcDownLoad.dateOfConventions;
-   // self.tableAddress = [tcDownLoad.addressOfConventions valueForKey:@"nodeContent"];
-    //[tcDownLoad release];
-    //[self.tableView reloadData];
-   }
+
+}
 
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
     
-    tcDownLoad = [[TCDownLoadXML alloc]init];
-    [tcDownLoad downloadAndProcess];
-    tcDownLoad.delegate = self;
-    
-    //[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(reloadDataAfterLoad) name:@"notificationName" object:nil];
 }
 
-#pragma -
-#pragma Delegate Method for the data download
-- (void) tcDownLoadXML:(TCDownLoadXML *)sender didDownLoadData:(NSData *)data {
-    
-    self.fileDownLoadData = data;
-    
-    //test the method
-    NSLog(@"THE DATA OUTPUT: %@",self.fileDownLoadData);
-}
 
 - (void)viewDidAppear:(BOOL)animated
 {

@@ -8,15 +8,17 @@
 
 #import <UIKit/UIKit.h>
 #import "TCAppAppDelegate.h"
+#import "TCDownLoadXML.h"
 
-
-@interface TCAppAppDelegate_iPhone : TCAppAppDelegate {
+@interface TCAppAppDelegate_iPhone : TCAppAppDelegate <TCDownLoadXMLDelegate>{
 @private
     
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 @property (nonatomic, retain) IBOutlet UITabBarController *tabBarController;
+@property (nonatomic, retain) NSData* fileDownLoadData;
+@property (nonatomic, retain) TCDownLoadXML* tcdown;
 
 
 @end
