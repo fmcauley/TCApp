@@ -45,10 +45,6 @@
 		F07405F1130E89E10071B201 /* InformationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F07405E7130E89E10071B201 /* InformationViewController.xib */; };
 		F07405FA130E8A530071B201 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F07405F9130E8A530071B201 /* SystemConfiguration.framework */; };
 		F086FF74132108260040D3D1 /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = F086FF73132108250040D3D1 /* XPathQuery.m */; };
-		F08C5C15134BF83D00F8B5F9 /* TCWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = F08C5C13134BF83D00F8B5F9 /* TCWebView.m */; };
-		F08C5C16134BF83D00F8B5F9 /* TCWebView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F08C5C14134BF83D00F8B5F9 /* TCWebView.xib */; };
-		F08C5C31134E98F300F8B5F9 /* TCNavTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = F08C5C2F134E98F300F8B5F9 /* TCNavTableView.m */; };
-		F08C5C32134E98F300F8B5F9 /* TCNavTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F08C5C30134E98F300F8B5F9 /* TCNavTableView.xib */; };
 		F0C04813132C74A8001B2821 /* TCConventionSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C04811132C74A8001B2821 /* TCConventionSearch.m */; };
 		F0C04814132C74A8001B2821 /* TCConventionSearch.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0C04812132C74A8001B2821 /* TCConventionSearch.xib */; };
 /* End PBXBuildFile section */
@@ -112,12 +108,6 @@
 		F07405F9130E8A530071B201 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		F086FF72132108250040D3D1 /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPathQuery.h; sourceTree = "<group>"; };
 		F086FF73132108250040D3D1 /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPathQuery.m; sourceTree = "<group>"; };
-		F08C5C12134BF83D00F8B5F9 /* TCWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCWebView.h; sourceTree = "<group>"; };
-		F08C5C13134BF83D00F8B5F9 /* TCWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCWebView.m; sourceTree = "<group>"; };
-		F08C5C14134BF83D00F8B5F9 /* TCWebView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TCWebView.xib; sourceTree = "<group>"; };
-		F08C5C2E134E98F300F8B5F9 /* TCNavTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCNavTableView.h; sourceTree = "<group>"; };
-		F08C5C2F134E98F300F8B5F9 /* TCNavTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCNavTableView.m; sourceTree = "<group>"; };
-		F08C5C30134E98F300F8B5F9 /* TCNavTableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TCNavTableView.xib; sourceTree = "<group>"; };
 		F0C04810132C74A8001B2821 /* TCConventionSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCConventionSearch.h; sourceTree = "<group>"; };
 		F0C04811132C74A8001B2821 /* TCConventionSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCConventionSearch.m; sourceTree = "<group>"; };
 		F0C04812132C74A8001B2821 /* TCConventionSearch.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TCConventionSearch.xib; sourceTree = "<group>"; };
@@ -164,8 +154,6 @@
 			isa = PBXGroup;
 			children = (
 				F0312EB213520DEB00B70C4D /* TCProcessDownloadedFile */,
-				F08C5C2D134E98A000F8B5F9 /* TCNavTableView */,
-				F08C5C10134BF81100F8B5F9 /* TCWebView */,
 				F0C0480E132C745D001B2821 /* TCConventionSearch */,
 				F086FF6E1321073B0040D3D1 /* TCXml */,
 				F0740600130E8BCF0071B201 /* TCDownLoadXML */,
@@ -320,26 +308,6 @@
 			name = TCXml;
 			sourceTree = "<group>";
 		};
-		F08C5C10134BF81100F8B5F9 /* TCWebView */ = {
-			isa = PBXGroup;
-			children = (
-				F08C5C12134BF83D00F8B5F9 /* TCWebView.h */,
-				F08C5C13134BF83D00F8B5F9 /* TCWebView.m */,
-				F08C5C14134BF83D00F8B5F9 /* TCWebView.xib */,
-			);
-			name = TCWebView;
-			sourceTree = "<group>";
-		};
-		F08C5C2D134E98A000F8B5F9 /* TCNavTableView */ = {
-			isa = PBXGroup;
-			children = (
-				F08C5C2E134E98F300F8B5F9 /* TCNavTableView.h */,
-				F08C5C2F134E98F300F8B5F9 /* TCNavTableView.m */,
-				F08C5C30134E98F300F8B5F9 /* TCNavTableView.xib */,
-			);
-			name = TCNavTableView;
-			sourceTree = "<group>";
-		};
 		F0C0480E132C745D001B2821 /* TCConventionSearch */ = {
 			isa = PBXGroup;
 			children = (
@@ -436,8 +404,6 @@
 				F01FFCA5130E90170024AD14 /* TattooConventions_IPHONE_LOAD_960x640.png in Resources */,
 				F01FFCA6130E90170024AD14 /* Default.png in Resources */,
 				F0C04814132C74A8001B2821 /* TCConventionSearch.xib in Resources */,
-				F08C5C16134BF83D00F8B5F9 /* TCWebView.xib in Resources */,
-				F08C5C32134E98F300F8B5F9 /* TCNavTableView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,8 +448,6 @@
 				F07405F0130E89E10071B201 /* TCConnectionToNetwork.m in Sources */,
 				F086FF74132108260040D3D1 /* XPathQuery.m in Sources */,
 				F0C04813132C74A8001B2821 /* TCConventionSearch.m in Sources */,
-				F08C5C15134BF83D00F8B5F9 /* TCWebView.m in Sources */,
-				F08C5C31134E98F300F8B5F9 /* TCNavTableView.m in Sources */,
 				F0312EB613520E2E00B70C4D /* TCProcessDownloadedFile.m in Sources */,
 				F001A0BC13593A8A008C4805 /* TCDownLoadXML.m in Sources */,
 			);
