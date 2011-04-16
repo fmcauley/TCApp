@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F001A0BC13593A8A008C4805 /* TCDownLoadXML.m in Sources */ = {isa = PBXBuildFile; fileRef = F001A0BB13593A8A008C4805 /* TCDownLoadXML.m */; };
 		F01FFC97130E90050024AD14 /* icon-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = F01FFC90130E90050024AD14 /* icon-ipad.png */; };
 		F01FFC98130E90050024AD14 /* icon-small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = F01FFC91130E90050024AD14 /* icon-small-50.png */; };
 		F01FFC99130E90050024AD14 /* icon-small.png in Resources */ = {isa = PBXBuildFile; fileRef = F01FFC92130E90050024AD14 /* icon-small.png */; };
@@ -63,6 +64,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F001A0BA13593A8A008C4805 /* TCDownLoadXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCDownLoadXML.h; sourceTree = "<group>"; };
+		F001A0BB13593A8A008C4805 /* TCDownLoadXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCDownLoadXML.m; sourceTree = "<group>"; };
 		F01FFC90130E90050024AD14 /* icon-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-ipad.png"; sourceTree = "<group>"; };
 		F01FFC91130E90050024AD14 /* icon-small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-small-50.png"; sourceTree = "<group>"; };
 		F01FFC92130E90050024AD14 /* icon-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-small.png"; sourceTree = "<group>"; };
@@ -302,6 +305,8 @@
 		F0740600130E8BCF0071B201 /* TCDownLoadXML */ = {
 			isa = PBXGroup;
 			children = (
+				F001A0BA13593A8A008C4805 /* TCDownLoadXML.h */,
+				F001A0BB13593A8A008C4805 /* TCDownLoadXML.m */,
 			);
 			name = TCDownLoadXML;
 			sourceTree = "<group>";
@@ -480,6 +485,7 @@
 				F08C5C15134BF83D00F8B5F9 /* TCWebView.m in Sources */,
 				F08C5C31134E98F300F8B5F9 /* TCNavTableView.m in Sources */,
 				F0312EB613520E2E00B70C4D /* TCProcessDownloadedFile.m in Sources */,
+				F001A0BC13593A8A008C4805 /* TCDownLoadXML.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
