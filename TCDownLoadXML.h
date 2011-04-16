@@ -12,12 +12,15 @@
 
 @interface TCDownLoadXML : NSObject {
     
-    NSData* _fileDownloaded;
+    NSMutableData* _fileDownloaded;
     id <TCDownLoadXMLDelegate> _delegate;
 }
 
-@property (nonatomic, retain) NSData* fileDownloaded;
+@property (nonatomic, retain) NSMutableData* fileDownloaded;
 @property (assign) id <TCDownLoadXMLDelegate> delegate;
+
+-(void)downloadAndProcess;
+-(id)initWithDownLoad;
 
 @end
 
