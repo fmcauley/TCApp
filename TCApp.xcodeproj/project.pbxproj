@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F001A0BC13593A8A008C4805 /* TCDownLoadXML.m in Sources */ = {isa = PBXBuildFile; fileRef = F001A0BB13593A8A008C4805 /* TCDownLoadXML.m */; };
+		F001A0C0135A0FA2008C4805 /* TCFileProcessing.m in Sources */ = {isa = PBXBuildFile; fileRef = F001A0BF135A0FA2008C4805 /* TCFileProcessing.m */; };
 		F01FFC97130E90050024AD14 /* icon-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = F01FFC90130E90050024AD14 /* icon-ipad.png */; };
 		F01FFC98130E90050024AD14 /* icon-small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = F01FFC91130E90050024AD14 /* icon-small-50.png */; };
 		F01FFC99130E90050024AD14 /* icon-small.png in Resources */ = {isa = PBXBuildFile; fileRef = F01FFC92130E90050024AD14 /* icon-small.png */; };
@@ -62,6 +63,8 @@
 /* Begin PBXFileReference section */
 		F001A0BA13593A8A008C4805 /* TCDownLoadXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCDownLoadXML.h; sourceTree = "<group>"; };
 		F001A0BB13593A8A008C4805 /* TCDownLoadXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCDownLoadXML.m; sourceTree = "<group>"; };
+		F001A0BE135A0FA2008C4805 /* TCFileProcessing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCFileProcessing.h; sourceTree = "<group>"; };
+		F001A0BF135A0FA2008C4805 /* TCFileProcessing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCFileProcessing.m; sourceTree = "<group>"; };
 		F01FFC90130E90050024AD14 /* icon-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-ipad.png"; sourceTree = "<group>"; };
 		F01FFC91130E90050024AD14 /* icon-small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-small-50.png"; sourceTree = "<group>"; };
 		F01FFC92130E90050024AD14 /* icon-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-small.png"; sourceTree = "<group>"; };
@@ -141,6 +144,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F001A0BD135A0F81008C4805 /* TCFileProcessing */ = {
+			isa = PBXGroup;
+			children = (
+				F001A0BE135A0FA2008C4805 /* TCFileProcessing.h */,
+				F001A0BF135A0FA2008C4805 /* TCFileProcessing.m */,
+			);
+			name = TCFileProcessing;
+			sourceTree = "<group>";
+		};
 		F0312EB213520DEB00B70C4D /* TCProcessDownloadedFile */ = {
 			isa = PBXGroup;
 			children = (
@@ -153,6 +165,7 @@
 		F0740585130E886C0071B201 = {
 			isa = PBXGroup;
 			children = (
+				F001A0BD135A0F81008C4805 /* TCFileProcessing */,
 				F0312EB213520DEB00B70C4D /* TCProcessDownloadedFile */,
 				F0C0480E132C745D001B2821 /* TCConventionSearch */,
 				F086FF6E1321073B0040D3D1 /* TCXml */,
@@ -450,6 +463,7 @@
 				F0C04813132C74A8001B2821 /* TCConventionSearch.m in Sources */,
 				F0312EB613520E2E00B70C4D /* TCProcessDownloadedFile.m in Sources */,
 				F001A0BC13593A8A008C4805 /* TCDownLoadXML.m in Sources */,
+				F001A0C0135A0FA2008C4805 /* TCFileProcessing.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

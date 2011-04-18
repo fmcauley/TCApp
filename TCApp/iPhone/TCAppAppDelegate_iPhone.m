@@ -8,6 +8,7 @@
 #define DEBUG_TC
 
 #import "TCAppAppDelegate_iPhone.h"
+#import "TCFileProcessing.h"
 
 @implementation TCAppAppDelegate_iPhone
 
@@ -47,8 +48,16 @@
     
     self.fileDownLoadData = data;
     
-    //test the file:
-    NSLog(@"THE DATA: %@",self.fileDownLoadData);
+    
+    TCFileProcessing* tcf = [[TCFileProcessing alloc]init];
+    [tcf processTheDownLoadedFileIntoCoreData:self.fileDownLoadData];
+    //setup a notification.
+    
+    //need to filter the data
+    //test if the file exists...
+    //then check the date for a signifcate change...
+    //inset into the core data
+    
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
