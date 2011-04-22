@@ -16,6 +16,7 @@
 - (void) processTheDownLoadedFileIntoCoreData:(NSData*)data {
     
     self.downloadedData = data;
+
 }
 
 - (void)dealloc {
